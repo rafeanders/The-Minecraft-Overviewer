@@ -82,7 +82,7 @@ Building with mingw-w64 and msys2
 
 This is the recommended way to build on Windows without MSVC.
 
-1. Install msys2 by following **all** the instructions on 
+1. Install msys2 by following **all** the instructions on
    `the msys2 installation page <https://msys2.github.io/>`_.
 
 2. Install the dependencies::
@@ -116,10 +116,10 @@ Building with mingw
 4. Build::
 
     python3 setup.py build --compiler=mingw32
-    
+
 If the build fails with complaints about ``-mno-cygwin``, open the file ``Lib/distutils/cygwincompiler.py``
 in an editor of your choice, and remove all mentions of ``-mno-cygwin``. This is a bug in distutils,
-filed as `Issue 12641 <http://bugs.python.org/issue12641>`_. 
+filed as `Issue 12641 <http://bugs.python.org/issue12641>`_.
 
 
 Linux
@@ -145,7 +145,7 @@ You will need the following packages on Debian-derived distributions (e.g. Ubunt
 Then to build::
 
     python3 setup.py build
-    
+
 At this point, you can run ``./overviewer.py`` from the current directory, so to run it you'll have to be in this directory and run ``./overviewer.py`` or provide the the full path to ``overviewer.py``.  Another option would be to add this directory to your ``$PATH``.   Note that there is a ``python3 setup.py install`` step that you can run which will install things into ``/usr/local/bin``, but this is strongly not recommended as it might conflict with other installs of Overviewer.
 
 Alternate Linux Installation Method
