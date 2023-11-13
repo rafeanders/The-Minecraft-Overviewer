@@ -161,7 +161,7 @@ You will need the following:
 - A copy of the `Pillow sources <https://github.com/python-pillow/Pillow>`_.
 - The Pillow Extension for Python.
 - The Numpy Extension for Python.
-- The extensions can be installed now if you already have pipenv from within your Minecraft Overviewer directory. This will ensure you virtual environment is focused on that project::
+- The extensions can be installed now if you already have pipenv. This should be done from within your Minecraft Overviewer directory. This will ensure you virtual environment is focused on that project::
 
     pipenv install numpy
     pipenv install pillow
